@@ -8,6 +8,7 @@ from sklearn.utils import shuffle
 from sklearn.model_selection import train_test_split
 
 
+
 class Pipeline:
     def __init__(self, model=None, base_path='', epochs=2):
         self.data = []
