@@ -9,7 +9,7 @@ from sklearn.model_selection import train_test_split
 
 
 class Pipeline:
-    def __init__(self, model=None, base_path='./MyData', epochs=2):
+    def __init__(self, model=None, base_path='./MyData/', epochs=2):
         self.data = []
         self.model = model
         self.epochs = epochs
