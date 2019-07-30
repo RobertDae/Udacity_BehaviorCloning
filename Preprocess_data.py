@@ -8,8 +8,8 @@ for infile in glob.glob("./MyData/IMG/center*.jpg"):
     image_names.append(image_name[0])
     
 print(image_names)
-
-print(len(image_found), len(image_not_found), len(image_names))
+print("Number pf images{}".format(len(image_names)))
+#print(len(image_found), len(image_not_found), len(image_names))
 
 with open('./MyData/driving_log.csv','r') as file, open ('./MyData/clean_log.csv', 'w', newline='') as outfile:
     datareader = csv.reader(file,delimiter=',')
