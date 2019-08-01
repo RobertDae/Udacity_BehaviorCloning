@@ -11,7 +11,7 @@ from sklearn.model_selection import train_test_split
 
 
 class Pipeline:
-    def __init__(self, model=model, base_path='', epochs=2):   #model=None replaced with model =model()
+    def __init__(self, model=None, base_path='', epochs=2):   #model=None replaced with model =model()
         self.data = []
         self.model = model
         self.epochs = epochs
