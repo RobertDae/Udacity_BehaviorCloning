@@ -3,7 +3,7 @@ import cv2
 import utils
 import argparse
 import numpy as np
-from nn import model
+from nn import CNNModel
 from sklearn.utils import shuffle
 from sklearn.model_selection import train_test_split
 
@@ -112,7 +112,7 @@ def main():
     args = parser.parse_args()
 
     # Instantiate the pipeline
-    pipeline = Pipeline(model=model(), base_path=args.data_base_path, epochs=2)
+    pipeline = Pipeline(model=CNNModel(), base_path=args.data_base_path, epochs=2)
 
     # Feed driving log data into the pipeline
     pipeline.import_data()
