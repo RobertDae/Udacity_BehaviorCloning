@@ -93,13 +93,13 @@ class Pipeline:
 
     def run(self):
         self.split_data()
-		self.model.compile(loss='mse', optimizer='adam')
-        self.model.fit_generator(generator=self.train_generator(),
-                                 validation_data=self.validation_generator(),
-                                 epochs=self.epochs,
-                                 steps_per_epoch=len(self.training_samples) * 2,
-                                 validation_steps=len(self.validation_samples))
-        self.model.save('model.h5')
+        self.model.compile(loss='mse', optimizer='adam')
+    self.model.fit_generator(generator=self.train_generator(),
+                             validation_data=self.validation_generator(),
+                             epochs=self.epochs,
+                             steps_per_epoch=len(self.training_samples) * 2,
+                             validation_steps=len(self.validation_samples))
+    self.model.save('model.h5')
 
 
 def main():
