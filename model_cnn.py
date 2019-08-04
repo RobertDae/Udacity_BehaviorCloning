@@ -12,9 +12,9 @@ from sklearn.model_selection import train_test_split
 
 
 class Pipeline:
-    def __init__(self, model=CNNModel(), base_path='', epochs=2):   #model=None replaced with model =model()
+    def __init__(self, base_path='', epochs=2):   #model=None replaced with model =model()
         self.data = []
-        self.model = model
+        self.model = CNNModel()
         self.epochs = epochs
         self.training_samples = []
         self.validation_samples = []
@@ -93,6 +93,7 @@ class Pipeline:
 
     def run(self):
         self.split_data()
+		self.model.compile(loss='mse', optimizer='adam')
         self.model.fit_generator(generator=self.train_generator(),
                                  validation_data=self.validation_generator(),
                                  epochs=self.epochs,
@@ -113,7 +114,7 @@ def main():
     args = parser.parse_args()
 
     # Instantiate the pipeline
-    pipeline = Pipeline(model=CNNModel(), base_path=args.data_base_path, epochs=2)
+    pipeline = Pipeline(base_path=args.data_base_path, epochs=2)
 
     # Feed driving log data into the pipeline
     pipeline.import_data()
