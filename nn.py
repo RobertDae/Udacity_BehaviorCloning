@@ -16,4 +16,4 @@ def CNNModel(loss='mse', optimizer='adam'):
     model.add(Dense(10, activation='relu'))
     model.add(Dense(1))
 
-    model.compile(loss=loss, optimizer=optimizer)
+    return model.compile(loss=loss, optimizer=optimizer)
