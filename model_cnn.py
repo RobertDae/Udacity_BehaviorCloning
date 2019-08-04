@@ -10,6 +10,7 @@ from sklearn.model_selection import train_test_split
 
 
 
+
 class Pipeline:
     def __init__(self, model=CNNModel(), base_path='', epochs=2):   #model=None replaced with model =model()
         self.data = []
