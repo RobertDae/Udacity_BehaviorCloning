@@ -112,7 +112,7 @@ I have changed an image preprocessing. I used S (saturation) channel from the HS
 The contours of the roadway are clearly visible in S channel.
 
 I have slightly changed the number of neurons in dense layers in Nvidia's model. 
-Then I started training this model again from scratch, and after only 1 epoch it was able to 
+Then I started training this model again from scratch, and after only 2 epoch it was able to 
 autonomously drive the car around the track 1 without even touching lane lines on the edges of the road.
 
 I have collected in total 11616 images with corresponding steering angles and augmented this data by
@@ -194,8 +194,7 @@ recovering from the left side and right sides of the road back to center so that
 
 To augment the data set, I also flipped images and angles thinking that this would mitigate the left angles biases in the dataset.
 
-Visualization of the preprocessing pipeline can be found in [image.ipynb](./image.ipynb). Some functions to help the data augmetation like image flipping
-can be found in [utils.py](./utils.py).
+My functions to help the data augmetation like image flipping can be found in [utils.py](./utils.py).
 
 Here is some pictures and graphs that helped me to understand the data.
 
@@ -208,21 +207,6 @@ Here is some pictures and graphs that helped me to understand the data.
 ###### Center, Left and Right Images as an Input to the First Convolutional Layer
 ![IMG](images/center_left_right_camera_conv_input.png)
 
-###### Raw Data Steering Angles (Slightly Biased to the Left)
-![IMG](images/raw_data_hist.png)
-
-There is no huge bias to the left because data was collected from both tracks instead of only the first track.
-There are 5 peaks: -1, -0.25, 0, 0.25, 1. Peak 0 is from the straight driving, -0.25 and 0.25 are from the angle
-corrections from left and right camera images. Peaks -1 and 1 are from abrupt turns (mostly from the track 2).
-Standard deviation reflects these peaks.
-
-###### Augmented Data Steering Angles (Not Biased)
-![IMG](images/augmented_data_hist.png)
 
 I finally randomly shuffled the data set and put 20% of the data into a validation set. 
-
-I used this training data for training the model. The validation set helped determine if the model was over or underfitting. 
-The ideal number of epochs was 5 as evidenced by the driving 
-behavior on the track 2 (which is harder). Also, the model started overfitting after the 6th training epoch. 
-I used an adam optimizer so that manually training 
-the learning rate was not necessary.
+I used an adam optimizer so that manually training the learning rate was not necessary.
