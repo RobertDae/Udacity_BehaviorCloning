@@ -26,7 +26,7 @@ individually and describe how I addressed each point in my implementation.
 #### 1. Submission includes all required files and can be used to run the simulator in autonomous mode
 
 My project includes the following files:
-* [model_cnn.py](./model_cnn.py) containing the script to create and train the model
+* [model.py](./model.py) containing the script to create and train the model
 * [nn.py](./nn.py) the implemented cnn model for the autonomous driving
 * [utils.py](./utils.py) the functions for image augmentation are defined here
 * [demonstration_image_augmentation.py](./demonstration_image_augmentation.py) this file demonstrates the functions integrated in utils for image augmentation
