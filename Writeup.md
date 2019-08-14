@@ -14,13 +14,7 @@ The goals/steps of this project are the following:
 
 [//]: # (Image References)
 
-[image1]: ./examples/placeholder.png "Model Visualization"
-[image2]: ./examples/placeholder.png "Grayscaling"
-[image3]: ./examples/placeholder_small.png "Recovery Image"
-[image4]: ./examples/placeholder_small.png "Recovery Image"
-[image5]: ./examples/placeholder_small.png "Recovery Image"
-[image6]: ./examples/placeholder_small.png "Normal Image"
-[image7]: ./examples/placeholder_small.png "Flipped Image"
+Not used...
 
 ## Rubric Points
 Here I will consider the [rubric points](https://review.udacity.com/#!/rubrics/432/view) 
@@ -35,6 +29,7 @@ My project includes the following files:
 * [model_cnn.py](./model_cnn.py) containing the script to create and train the model
 * [nn.py](./nn.py) the implemented cnn model for the autonomous driving
 * [utils.py](./utils.py) the functions for image augmentation are defined here
+* [demonstration_image_augmentation.py](./demonstration_image_augmentation.py) this file demonstrates the functions integrated in utils for image augmentation
 * [drive.py](./drive.py) for driving the car in autonomous mode
 * [model.h5](./model.h5) containing a trained convolution neural network 
 * [Writeup.md](./Writeup.md) summarizing the results
