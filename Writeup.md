@@ -186,7 +186,7 @@ Epoch 2/2
 6192/6192 [==============================] - 3796s 613ms/step - loss: 4.0206e-04 - val_loss: 0.0258
 
 ````
-[FinalVideoInAutonomousMode](./Videos/run1.mp4)
+![FinalVideoInAutonomousMode](./Videos/run1.mp4)
 
 #### 3. Creation of the Training Set and Training Process
 
