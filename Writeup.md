@@ -59,6 +59,7 @@ the code works.
 I have used neural network architecture similar to one, that has been proposed
 by Nvidia in the 
 [article](http://images.nvidia.com/content/tegra/automotive/images/2016/solutions/pdf/end-to-end-dl-using-px.pdf).
+[ModelDetails]./images/NVidia_Network_For_AD.JPG
 
 I have slightly changed the model though. Cropping layer was added that transforms
 the image of shape (160, 320) to (70, 320). There is also a normalization layer
@@ -108,8 +109,8 @@ Then I have collected more data and read the following articles:
 - [Mengxi Wu's article](https://medium.com/@xslittlegrass/self-driving-car-in-a-simulator-with-a-tiny-neural-network-13d33b871234)
 - [Denise R. James' article](https://medium.com/@deniserjames/denise-james-bsee-msee-5beb448cf184)
 
-I have changed an image preprocessing. I used S (saturation) channel from the HSV-encoded image. 
-The contours of the roadway are clearly visible in S channel.
+One idea also would be changing the image preprocessing using the S (saturation) channel from the HSV-encoded image. 
+The contours of the roadway would be clearly visible in S channel.
 
 I have slightly changed the number of neurons in dense layers in Nvidia's model. 
 Then I started training this model again from scratch, and after only 2 epoch it was able to 
