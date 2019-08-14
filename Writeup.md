@@ -189,18 +189,9 @@ Epoch 2/2
 
 ````
 
-<!-- blank line -->
-<figure class="video_container">
-  <video controls="true" allowfullscreen="true" poster="MyData06/IMG/center_2019_08_11_15_35_48_328.jpg">
-    <source src="./Videos/run1.mp4" type="video/mp4">
-  </video>
-</figure>
-<!-- blank line -->
-<!-- blank line -->
-<figure class="video_container">
-  <iframe src="/Videos/run1.mp4" frameborder="0" allowfullscreen="true"> </iframe>
-</figure>
-<!-- blank line -->
+![](./MyData06/IMG/center_2019_08_11_15_35_48_993.jpg)
+![FinalRoundAutonomous_Track1](./Videos/run1.mp4)
+
 
 
 #### 3. Creation of the Training Set and Training Process
