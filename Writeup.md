@@ -205,14 +205,20 @@ My functions to help the data augmetation like image flipping can be found in [u
 
 Here is some pictures and graphs that helped me to understand the data.
 
-###### Center, Left and Right Images Taken at the Same Moment in Time
-![IMG](images/center_left_right_camera.png)
+###### OriginalImages - Center, Left and Right Images Taken at the Same Moment in Time
+![IMG](./images/orginal/left_2019_08_11_15_35_48_328.jpg)
+![IMG](./images/orginal/center_2019_08_11_15_35_48_328.jpg)
+![IMG](./images/orginal/right_2019_08_11_15_35_48_328.jpg)
 
-###### Flipped Center, Left and Right Images Taken at the Same Moment in Time
-![IMG](images/center_left_right_camera_flipped.png)
+###### Cropped and Resized - Center, Left and Right Images Taken at the Same Moment in Time
+![IMG](./images/img_left_cropped.jpg)
+![IMG](./images/img_center_cropped.jpg)
+![IMG](./images/img_right_cropped.jpg)
 
-###### Center, Left and Right Images as an Input to the First Convolutional Layer
-![IMG](images/center_left_right_camera_conv_input.png)
+###### Flipped - Center, Left and Right Images Taken at the Same Moment in Time
+![IMG](./images/img_center_flipped.jpg)
+![IMG](./images/img_center_flipped.jpg)
+![IMG](./images/img_center_flipped.jpg)
 
 
 I finally randomly shuffled the data set and put 20% of the data into a validation set. 
