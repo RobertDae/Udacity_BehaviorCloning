@@ -79,11 +79,6 @@ The model used an adam optimizer, so the learning rate was not tuned manually.
 #### 4. Appropriate training data
 
 Training data was chosen to keep the vehicle driving on the road. 
-I used a combination of center lane driving and recovering from the left and right sides 
-of the road. Initially there were 3 center lane driving laps on track 1.
-There were also 1 recovery laps per each track. Later I have added 1 center lane driving laps 
-per each track and more recovery data for tricky places.
-
 For details about how I created the training data, see the next section. 
 
 ### Model Architecture and Training Strategy
@@ -115,7 +110,7 @@ autonomously drive the car around the track 1 without even touching lane lines o
 
 I have collected in total 11616 images with corresponding steering angles and augmented this data by
 flipping each image to prevent left or right biases in angles. I got 11616 images data set in total.
-The data archive can be obtain using the [link](https://yadi.sk/d/PaOHVil33HnCKz).
+The data archive can be obtain using the [link](./TBD).
 
 The data set was split into training and validation data sets in a 4:1 proportion (i.e., 20% of images in the validation data set).
 Images were also shuffled appropriately.
@@ -216,5 +211,4 @@ Here is some pictures and graphs that helped me to understand the data.
 ![IMG](./images/img_center_flipped.jpg)
 
 
-I finally randomly shuffled the data set and put 20% of the data into a validation set. 
 I used an adam optimizer so that manually training the learning rate was not necessary.
