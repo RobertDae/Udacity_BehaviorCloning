@@ -190,7 +190,7 @@ Epoch 2/2
 ````
 
 ![](./MyData06/IMG/center_2019_08_11_15_35_48_993.jpg)
-![FinalRoundAutonomous_Track1](./Videos/run1.mp4)
+[FinalRoundAutonomous_Track1](./Videos/run1.mp4)
 
 
 
