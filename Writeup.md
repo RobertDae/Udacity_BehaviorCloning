@@ -198,7 +198,7 @@ Epoch 2/2
 <!-- blank line -->
 <!-- blank line -->
 <figure class="video_container">
-  <iframe src="./Videos/run1.mp4" frameborder="0" allowfullscreen="true"> </iframe>
+  <iframe src="/Videos/run1.mp4" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
 <!-- blank line -->
 
