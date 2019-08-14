@@ -34,6 +34,8 @@ My project includes the following files:
 * [model.h5](./model.h5) containing a trained convolution neural network 
 * [Writeup.md](./Writeup.md) summarizing the results
 
+In the folder "MyData06" the data has been taken for training the final model [model.h5].
+
 #### 2. Submission includes functional code
 Using the Udacity provided [simulator](https://github.com/udacity/self-driving-car-sim) 
 and my [drive.py](./drive.py) file, the car can be driven autonomously around 
