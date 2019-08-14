@@ -59,7 +59,7 @@ the code works.
 I have used neural network architecture similar to one, that has been proposed
 by Nvidia in the 
 [article](http://images.nvidia.com/content/tegra/automotive/images/2016/solutions/pdf/end-to-end-dl-using-px.pdf).
-[ModelDetails](./images/NVidia_Network_For_AD.JPG)
+![ModelDetails](./images/NVidia_Network_For_AD.JPG)
 
 I have slightly changed the model though. Cropping layer was added that transforms
 the image of shape (160, 320) to (70, 320). There is also a normalization layer
