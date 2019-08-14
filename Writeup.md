@@ -188,7 +188,15 @@ Epoch 2/2
 6192/6192 [==============================] - 3796s 613ms/step - loss: 4.0206e-04 - val_loss: 0.0258
 
 ````
-![FinalVideoInAutonomousMode](./Videos/run1.mp4)
+
+<!-- blank line -->
+<figure class="video_container">
+  <video controls="true" allowfullscreen="true" poster="MyData06/IMG/center_2019_08_11_15_35_48_328.jpg">
+    <source src="/Videos/run1.mp4" type="video/mp4">
+  </video>
+</figure>
+<!-- blank line -->
+
 
 #### 3. Creation of the Training Set and Training Process
 
