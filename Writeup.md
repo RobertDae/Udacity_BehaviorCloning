@@ -34,7 +34,7 @@ My project includes the following files:
 * [model.h5](./model.h5) containing a trained convolution neural network 
 * [Writeup.md](./Writeup.md) summarizing the results
 
-In the folder "MyData06" the data has been taken for training the final model [model.h5].
+The data [here](https://yadi.sk/d/R4wOEAJUmkJdnA/MyData06.zip) has been taken for training the final model [model.h5].
 
 #### 2. Submission includes functional code
 Using the Udacity provided [simulator](https://github.com/udacity/self-driving-car-sim) 
@@ -183,6 +183,7 @@ Epoch 2/2
 
 ![](./MyData06/IMG/center_2019_08_11_15_35_48_993.jpg)
 [FinalRoundAutonomous_Track1](./Videos/run1.mp4)
+[HighRes_Recording](https://yadi.sk/d/R4wOEAJUmkJdnA/HighResRecording.mp4)
 
 
 
