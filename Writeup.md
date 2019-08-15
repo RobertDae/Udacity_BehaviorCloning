@@ -180,7 +180,6 @@ Epoch 2/2
 6192/6192 [==============================] - 3796s 613ms/step - loss: 4.0206e-04 - val_loss: 0.0258
 
 ````
-
 ![](./MyData06/IMG/center_2019_08_11_15_35_48_993.jpg)
 [FinalRoundAutonomous_Track1](./Videos/run1.mp4)
 [HighRes_Recording](https://yadi.sk/d/R4wOEAJUmkJdnA/HighResRecording.mp4)
